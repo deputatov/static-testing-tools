@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "static testing tools",
   "scripts": {
+    "prepare": "husky install",
     "build": "babel src --out-dir dist",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "check-types": "tsc",
