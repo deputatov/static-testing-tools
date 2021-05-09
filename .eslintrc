@@ -10,7 +10,7 @@
   },
   "plugins": ["@typescript-eslint/eslint-plugin"],
   "extends": [
-    "eslint:recommended",
+    "airbnb",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier"
